@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+flask
+selenium~=4.9.0
+setuptools~=67.6.1
+pyperclip~=1.8.2
+lightgbm
+xgboost
+-e .
