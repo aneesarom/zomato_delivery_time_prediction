@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request
 from src.pipelines.prediction_pipeline import CustomData, Predict
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
+
 
 numerical_cols = ["delivery_person_Age", "delivery_person_ratings",
                   "restaurant_latitude", "restaurant_longitude", "delivery_location_latitude",
@@ -62,4 +64,4 @@ def new_prediction():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    app.run(debug=True, host="0.0.0.0")

@@ -61,6 +61,7 @@ def loc_transform(df):
     df["lat"] = df["Delivery_location_latitude"] - df["Restaurant_latitude"]
     return df
 
+
 def save_object(file_path, obj):
     try:
         dir_path = os.path.dirname(file_path)

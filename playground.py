@@ -30,11 +30,13 @@ for i in range(len(res_lat_list)):
         hours = driver.find_element(By.CLASS_NAME, "MespJc")
         details = hours.text
         try:
+            time.sleep(2)
             time_taken = details.split("\n")[0].split(" ")[0]
             time_taken_list.append(time_taken)
         except Exception as err:
             time_taken_list.append(np.NAN)
         try:
+            time.sleep(2)
             km = details.split(" ")[1].split("\n")[1]
             km_list.append(km)
         except Exception as err:
@@ -43,6 +45,7 @@ for i in range(len(res_lat_list)):
         time_taken_list.append(np.NAN)
         km_list.append(np.NAN)
     print(time_taken_list, km_list)
+    time.sleep(2)
 
 df["actual_time"] = time_taken_list
 df["actual_km"] = km_list

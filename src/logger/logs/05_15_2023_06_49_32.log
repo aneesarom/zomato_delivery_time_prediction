@@ -1,0 +1,7 @@
+[ 2023-05-15 06:49:32,435 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-15 06:49:32,443 ] 186 werkzeug - INFO -  * Debugger PIN: 604-903-675
+[ 2023-05-15 06:49:40,060 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 06:49:40] "GET / HTTP/1.1" 200 -
+[ 2023-05-15 06:49:40,100 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 06:49:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-05-15 06:50:28,751 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-15 06:50:28,802 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-15 06:50:28,803 ] 186 werkzeug - INFO - 127.0.0.1 - - [15/May/2023 06:50:28] "POST /predict HTTP/1.1" 200 -
