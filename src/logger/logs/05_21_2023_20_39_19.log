@@ -1,0 +1,5 @@
+[ 2023-05-21 20:39:19,388 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-21 20:39:19,407 ] 186 werkzeug - INFO -  * Debugger PIN: 106-888-734
+[ 2023-05-21 20:39:24,076 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 20:39:24] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 20:39:31,854 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 20:39:31] "[31m[1mGET /train HTTP/1.1[0m" 405 -
+[ 2023-05-21 20:40:11,098 ] 186 werkzeug - INFO -  * Detected change in '/Users/aneesaro/PycharmProjects/Ineuron projects/zomato_delivery_prediction/application.py', reloading

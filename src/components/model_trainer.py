@@ -49,9 +49,10 @@ class ModelTrainer:
             r2_max_index = r2_score_list.index(r2_max_value)
             best_model = trained_model_list[r2_max_index]
             best_model_name = list(models.keys())[r2_max_index]
-
-            print(f"{best_model_name}: {r2_max_value}")
+            with open(os.path.join("artifacts", "evaluation.txt"), "w") as file:
+                file.writelines(f"{best_model_name}: {round(r2_max_value, 2)*100}")
             save_object(self.model_trainer_config.trained_model_file_path, best_model)
+            logging.info(f"{best_model_name}: {round(r2_max_value, 2)*100}")
             logging.info("Saved best model pickle file")
 
             return trained_model_list, r2_score_list

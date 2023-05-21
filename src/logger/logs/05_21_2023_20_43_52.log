@@ -1,0 +1,10 @@
+[ 2023-05-21 20:43:52,243 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-21 20:43:52,252 ] 186 werkzeug - INFO -  * Debugger PIN: 106-888-734
+[ 2023-05-21 20:44:30,014 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 20:44:30] "[32mGET /train HTTP/1.1[0m" 302 -
+[ 2023-05-21 20:44:30,023 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 20:44:30] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 20:46:49,356 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 20:46:49] "[32mGET /train HTTP/1.1[0m" 302 -
+[ 2023-05-21 20:47:11,728 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 20:47:11] "[32mGET /train HTTP/1.1[0m" 302 -
+[ 2023-05-21 20:47:11,731 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 20:47:11] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 20:50:24,502 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-21 20:50:24,531 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-21 20:50:24,533 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 20:50:24] "POST /predict HTTP/1.1" 200 -

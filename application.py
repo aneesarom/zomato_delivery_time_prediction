@@ -1,5 +1,7 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 from src.pipelines.prediction_pipeline import CustomData, Predict
+import subprocess
+
 
 application = Flask(__name__)
 app = application
@@ -27,6 +29,13 @@ drop_down_order = [city_columns, type_of_vehicle_columns, type_of_order_columns,
 def index():
     return render_template("index.html", col=columns, drop_down_order=drop_down_order,
                            categorical_cols=categorical_cols, enumerate=enumerate)
+
+
+@app.route('/train', methods=['GET'])
+def train_model():
+    # Call the training pipeline script using subprocess
+    subprocess.run(['python', 'src/pipelines/training_pipeline.py'])
+    return redirect(url_for("index"))
 
 
 @app.route("/predict", methods=["GET", "POST"])
