@@ -7,9 +7,9 @@ from src.logger.logging import logging
 from src.exception.exception import CustomException
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
-from sklearn.pipeline import Pipeline, make_pipeline
-from sklearn.preprocessing import FunctionTransformer, OrdinalEncoder
-from src.utils.utils import order_data_transform, time_col_transform, save_object, loc_transform
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OrdinalEncoder
+from src.utils.utils import time_col_transform, save_object, loc_transform
 
 
 @dataclass
@@ -24,9 +24,9 @@ class DataTransformation:
     def get_data_transformation_object(self):
         try:
             mean_impute_cols = ["Delivery_person_Age", "Delivery_person_Ratings",
-                                "lat", "ordered_picked_diff", "Delivery_location_longitude",
+                                "equator_distance", "ordered_picked_diff", "Delivery_location_longitude",
                                 'Delivery_location_latitude']
-            mode_impute_cols = ["multiple_deliveries", 'Vehicle_condition', "month"]
+            mode_impute_cols = ["multiple_deliveries", 'Vehicle_condition']
             ordinal_encode_cols = ["City", "Type_of_vehicle", "Type_of_order", "Festival",
                                    "Weather_conditions", "Road_traffic_density"]
 
@@ -77,11 +77,9 @@ class DataTransformation:
             logging.info(f'Test Dataframe Head  : \n{test_df.head().to_string()}')
             logging.info("Data has been successfully read")
 
-            train_df = order_data_transform(train_df)
             train_df = time_col_transform(train_df)
             train_df = loc_transform(train_df)
 
-            test_df = order_data_transform(test_df)
             test_df = time_col_transform(test_df)
             test_df = loc_transform(test_df)
             logging.info("Column transformation has been successfully completed")

@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import sys
-from src.utils.utils import load_object, order_data_transform, loc_transform, time_col_transform
+from src.utils.utils import load_object, loc_transform, time_col_transform
 from src.logger.logging import logging
 from src.exception.exception import CustomException
 
@@ -12,7 +12,7 @@ class Predict:
 
     def predict(self, df):
         try:
-            df = order_data_transform(df)
+            # df = order_data_transform(df)
             df = time_col_transform(df)
             df = loc_transform(df)
             preprocessor_path = os.path.join("artifacts", "preprocessor.pkl")
@@ -32,7 +32,7 @@ class Predict:
 class CustomData:
     def __init__(self, delivery_person_age, delivery_person_ratings,
                  restaurant_latitude, restaurant_longitude, delivery_location_latitude,
-                 delivery_location_longitude, order_date, time_orderd, time_order_picked,
+                 delivery_location_longitude, time_orderd, time_order_picked,
                  weather_conditions, road_traffic_density, vehicle_condition, type_of_order,
                  type_of_vehicle, multiple_deliveries, festival, city):
         self.delivery_person_age = delivery_person_age
@@ -41,7 +41,6 @@ class CustomData:
         self.restaurant_longitude = restaurant_longitude
         self.delivery_location_latitude = delivery_location_latitude
         self.delivery_location_longitude = delivery_location_longitude
-        self.order_date = order_date
         self.time_orderd = time_orderd
         self.time_order_picked = time_order_picked
         self.weather_conditions = weather_conditions
@@ -61,7 +60,6 @@ class CustomData:
             'Restaurant_longitude': [self.restaurant_longitude],
             'Delivery_location_latitude': [self.delivery_location_latitude],
             'Delivery_location_longitude': [self.delivery_location_longitude],
-            'Order_Date': [self.order_date],
             'Time_Orderd': [self.time_orderd],
             'Time_Order_picked': [self.time_order_picked],
             'Weather_conditions': [self.weather_conditions],
@@ -79,7 +77,7 @@ class CustomData:
 if __name__ == "__main__":
     custom_obj = CustomData(delivery_person_age=22, delivery_person_ratings=4.2,
                             restaurant_latitude=30, restaurant_longitude=78, delivery_location_latitude=30.05,
-                            delivery_location_longitude=78.1, order_date="23-3-2022", time_orderd="17:55",
+                            delivery_location_longitude=78.1, time_orderd="17:55",
                             time_order_picked="6:10", weather_conditions="Fog", road_traffic_density="Jam",
                             vehicle_condition=2, type_of_vehicle="bicycle", type_of_order="Snack",
                             multiple_deliveries=0, festival="No", city="Urban")

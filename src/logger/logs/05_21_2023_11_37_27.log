@@ -1,0 +1,11 @@
+[ 2023-05-21 11:37:27,464 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-21 11:37:27,471 ] 186 werkzeug - INFO -  * Debugger PIN: 106-888-734
+[ 2023-05-21 11:37:27,482 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:37:27] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 11:37:28,757 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:37:28] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 11:37:44,756 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:37:44] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 11:37:45,673 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:37:45] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 11:37:46,258 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:37:46] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 11:37:46,490 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:37:46] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 11:37:46,658 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:37:46] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 11:37:46,857 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:37:46] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 11:38:28,227 ] 186 werkzeug - INFO -  * Detected change in '/Users/aneesaro/PycharmProjects/Ineuron projects/zomato_delivery_prediction/app.py', reloading

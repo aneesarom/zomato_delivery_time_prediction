@@ -4,19 +4,11 @@ import pickle
 import datetime
 import numpy as np
 import pandas as pd
-from sklearn.base import BaseEstimator, TransformerMixin
 from src.exception.exception import CustomException
 from src.logger.logging import logging
 
 
-def order_data_transform(X):
-    X["month"] = pd.to_datetime(X["Order_Date"], format='%d-%m-%Y').dt.month
-    X = X.drop(["Order_Date"], axis=1)
-    return X
-
-
 def time_col_transform(X):
-    X = X.copy()
     time_cols = ["Time_Orderd", "Time_Order_picked"]
     for col in time_cols:
         if col == "Time_Order_picked":
@@ -58,7 +50,7 @@ def strip_time(col):
 
 
 def loc_transform(df):
-    df["lat"] = df["Delivery_location_latitude"] - df["Restaurant_latitude"]
+    df["equator_distance"] = df["Delivery_location_latitude"] - df["Restaurant_latitude"]
     return df
 
 
