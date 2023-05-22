@@ -88,4 +88,5 @@ This will train the model and redirect to the home page
 
 ## Deployment
 
-Project was deployed in AWS Elastic Beanstalk using codepipeline
+Project was deployed in AWS Elastic Beanstalk using codepipeline. Since it is a free tier account I didnt share the 
+link here. Kindly mail me
