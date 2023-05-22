@@ -1,8 +1,0 @@
-[ 2023-05-21 11:36:09,598 ] 186 werkzeug - WARNING -  * Debugger is active!
-[ 2023-05-21 11:36:09,610 ] 186 werkzeug - INFO -  * Debugger PIN: 106-888-734
-[ 2023-05-21 11:36:16,264 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:36:16] "GET / HTTP/1.1" 200 -
-[ 2023-05-21 11:36:16,604 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:36:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-[ 2023-05-21 11:36:33,477 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
-[ 2023-05-21 11:36:33,502 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
-[ 2023-05-21 11:36:33,503 ] 186 werkzeug - INFO - 192.168.1.36 - - [21/May/2023 11:36:33] "POST /predict HTTP/1.1" 200 -
-[ 2023-05-21 11:37:26,549 ] 186 werkzeug - INFO -  * Detected change in '/Users/aneesaro/PycharmProjects/Ineuron projects/zomato_delivery_prediction/src/pipelines/prediction_pipeline.py', reloading

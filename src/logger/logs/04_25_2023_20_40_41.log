@@ -1,4 +1,0 @@
-[ 2023-04-25 20:40:41,818 ] 23 root - INFO - initiate_data_ingestion method starts
-[ 2023-04-25 20:40:41,915 ] 26 root - INFO - Dataframe read successfully
-[ 2023-04-25 20:40:42,258 ] 36 root - INFO - Train-test data was successfully split
-[ 2023-04-25 20:40:42,585 ] 40 root - INFO - Ingestion of data completed
