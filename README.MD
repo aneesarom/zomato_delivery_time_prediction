@@ -9,6 +9,7 @@
 - [Models](#models)
 - [Evaluation](#evaluation)
 - [Usage](#usage)
+- [Deployment](#deployment)
 
 ## Introduction
 
@@ -84,3 +85,7 @@ To train the model use the below route:
 http://127.0.0.1:5000/train
 ```
 This will train the model and redirect to the home page
+
+## Deployment
+
+Project was deployed in AWS Elastic Beanstalk using codepipeline
