@@ -1,0 +1,72 @@
+[ 2023-05-22 06:45:45,166 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-22 06:45:45,175 ] 186 werkzeug - INFO -  * Debugger PIN: 604-903-675
+[ 2023-05-22 06:46:17,122 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:46:17] "GET / HTTP/1.1" 200 -
+[ 2023-05-22 06:46:17,174 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:46:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-05-22 06:47:09,639 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:47:09,712 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:47:09,713 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:47:09] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:47:24,474 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:47:24] "GET / HTTP/1.1" 200 -
+[ 2023-05-22 06:47:50,818 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:47:50] "[32mGET /train HTTP/1.1[0m" 302 -
+[ 2023-05-22 06:48:16,266 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:48:16] "[32mGET /train HTTP/1.1[0m" 302 -
+[ 2023-05-22 06:48:16,270 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:48:16] "GET / HTTP/1.1" 200 -
+[ 2023-05-22 06:48:51,952 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:48:51,956 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:48:51,957 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:48:51] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:49:03,530 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:49:03,533 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:49:03,534 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:49:03] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:49:17,516 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:49:17,519 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:49:17,520 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:49:17] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:49:23,982 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:49:23,986 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:49:23,987 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:49:23] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:49:39,100 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:49:39,103 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:49:39,104 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:49:39] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:49:47,131 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:49:47,135 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:49:47,136 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:49:47] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:49:57,946 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:49:57] "GET / HTTP/1.1" 200 -
+[ 2023-05-22 06:50:47,070 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:50:47] "[32mGET /train HTTP/1.1[0m" 302 -
+[ 2023-05-22 06:50:47,076 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:50:47] "GET / HTTP/1.1" 200 -
+[ 2023-05-22 06:51:22,278 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:51:22,282 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:51:22,283 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:51:22] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:51:31,276 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:51:31,279 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:51:31,281 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:51:31] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:51:46,111 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:51:46,115 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:51:46,116 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:51:46] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:51:57,245 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:51:57,249 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:51:57,250 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:51:57] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:52:04,776 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:52:04,780 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:52:04,781 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:52:04] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:52:14,026 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:52:14,030 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:52:14,031 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:52:14] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:53:06,103 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:53:06] "[32mGET /train HTTP/1.1[0m" 302 -
+[ 2023-05-22 06:53:12,867 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:53:12] "GET / HTTP/1.1" 200 -
+[ 2023-05-22 06:53:52,395 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:53:52] "[32mGET /train HTTP/1.1[0m" 302 -
+[ 2023-05-22 06:53:52,400 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:53:52] "GET / HTTP/1.1" 200 -
+[ 2023-05-22 06:54:22,378 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:54:22,380 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:54:22,381 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:54:22] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:54:35,735 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:54:35,738 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:54:35,739 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:54:35] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:54:43,741 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:54:43,744 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:54:43,745 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:54:43] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:54:51,122 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:54:51,126 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:54:51,127 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:54:51] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:54:59,436 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:54:59,439 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:54:59,440 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:54:59] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-22 06:55:16,852 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-22 06:55:16,855 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-22 06:55:16,856 ] 186 werkzeug - INFO - 192.168.1.36 - - [22/May/2023 06:55:16] "POST /predict HTTP/1.1" 200 -

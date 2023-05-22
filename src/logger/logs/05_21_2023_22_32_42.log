@@ -1,0 +1,36 @@
+[ 2023-05-21 22:32:42,531 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-21 22:32:42,545 ] 186 werkzeug - INFO -  * Debugger PIN: 106-888-734
+[ 2023-05-21 22:32:48,006 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:32:48] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 22:32:48,043 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:32:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-05-21 22:33:46,621 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:33:46] "[32mGET /train HTTP/1.1[0m" 302 -
+[ 2023-05-21 22:33:46,626 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:33:46] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 22:34:36,485 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-21 22:34:36,502 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-21 22:34:36,504 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:34:36] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-21 22:34:47,447 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-21 22:34:47,451 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-21 22:34:47,452 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:34:47] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-21 22:34:56,497 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-21 22:34:56,500 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-21 22:34:56,501 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:34:56] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-21 22:35:08,739 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-21 22:35:08,743 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-21 22:35:08,744 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:35:08] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-21 22:35:17,937 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-21 22:35:17,940 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-21 22:35:17,941 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:35:17] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-21 22:35:29,523 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-21 22:35:29,526 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-21 22:35:29,527 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:35:29] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-21 22:35:41,046 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-21 22:35:41,049 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-21 22:35:41,050 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:35:41] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-21 22:35:49,177 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:35:49] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 22:36:48,371 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:36:48] "[32mGET /train HTTP/1.1[0m" 302 -
+[ 2023-05-21 22:36:48,376 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:36:48] "GET / HTTP/1.1" 200 -
+[ 2023-05-21 22:37:19,451 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-21 22:37:19,454 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-21 22:37:19,455 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:37:19] "POST /predict HTTP/1.1" 200 -
+[ 2023-05-21 22:37:30,182 ] 21 root - INFO - Transformation has been successfully transformed in prediction pipeline
+[ 2023-05-21 22:37:30,185 ] 25 root - INFO - Time taken has been successfully predicted in prediction pipeline
+[ 2023-05-21 22:37:30,186 ] 186 werkzeug - INFO - 127.0.0.1 - - [21/May/2023 22:37:30] "POST /predict HTTP/1.1" 200 -

@@ -47,7 +47,7 @@ Before training the model, it's essential to preprocess the data to ensure its q
 2. Data Cleaning: Handle missing values
 3. Feature Engineering: Extract relevant features from the raw data, such as converting categorical variables into numerical representations using encoding, transforming existing features.
 
-To perform these preprocessing steps, refer to the `data_transformation.py` script in the repository. This script contains the necessary functions and code snippets to preprocess the raw data. Modify the script as per your requirements and execute it before training the model.
+To perform these preprocessing steps, refer to the `src/components/data_transformation.py` script in the repository. This script contains the necessary functions and code snippets to preprocess the raw data. Modify the script as per your requirements and execute it before training the model.
 
 ## Models
 
@@ -79,7 +79,7 @@ is used. The evaluation results can be found in the
 http://127.0.0.1:5000/
 ```
 This will launch the application's interface where you can interact with the Zomato Delivery Time Prediction system.
-4. To train the model use the below route:
+To train the model use the below route:
 ```commandline
 http://127.0.0.1:5000/train
 ```
